@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato | Glipearte Pegue e Monte</title>
+<meta name="description" content="Entre em contato com a Glipearte Pegue e Monte em Fortaleza, CE. Fale pelo WhatsApp, Instagram ou envie uma mensagem pelo formulário.">
+<link rel="canonical" href="https://www.glipearte.com.br/contato.html">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<header class="site-header scrolled">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="emoji">🎈</span>Gli<span class="sub">pearte</span></a>
+    <nav class="main-nav" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Quem Somos</a>
+      <a href="catalogo.html">Kits</a>
+      <a href="index.html#themes-section">Temas</a>
+      <a href="index.html#how-section">Como Funciona</a>
+      <a href="index.html#testimonials-section">Depoimentos</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="blog.html">Blog</a>
+      <a href="contato.html" class="active">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn dark-mode-toggle" aria-label="Alternar modo escuro"><i class="fa-solid fa-moon"></i></button>
+      <a class="btn btn-whatsapp btn-sm" href="#" data-whatsapp-msg="Olá! Vim pelo site e gostaria de mais informações."><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      <button class="menu-toggle" aria-label="Abrir menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+<div class="nav-backdrop"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="hero-badge">📩 Fale com a Gente</span>
+    <h1>Vamos Conversar?</h1>
+    <p>Estamos prontos para ajudar a tornar sua festa inesquecível.</p>
+    <div class="breadcrumb"><a href="index.html">Início</a> / Contato</div>
+  </div>
+</section>
+
+<section class="contact-section" style="padding-top:60px;">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info-card reveal">
+        <h3>Glipearte Pegue e Monte</h3>
+        <div class="contact-info-item"><div class="icon"><i class="fa-solid fa-location-dot"></i></div><div><strong>Localização</strong><span>Fortaleza – CE</span></div></div>
+        <div class="contact-info-item"><div class="icon"><i class="fa-brands fa-whatsapp"></i></div><div><strong>WhatsApp</strong><a href="#" data-whatsapp-msg="Olá! Gostaria de mais informações sobre os kits da Glipearte.">Falar agora</a></div></div>
+        <div class="contact-info-item"><div class="icon"><i class="fa-brands fa-instagram"></i></div><div><strong>Instagram</strong><a href="#" target="_blank" rel="noopener">@glipearte</a></div></div>
+        <div class="contact-info-item"><div class="icon"><i class="fa-solid fa-book-open"></i></div><div><strong>Catálogo</strong><a href="catalogo.html">Ver todos os kits</a></div></div>
+        <div class="contact-social">
+          <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" data-whatsapp-msg="Olá!" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <form class="contact-form-card reveal" id="contact-form">
+        <h3>Envie uma mensagem</h3>
+        <div class="form-group">
+          <label for="contact-name">Nome completo</label>
+          <input type="text" id="contact-name" placeholder="Seu nome">
+          <span class="form-error">Informe seu nome completo.</span>
+        </div>
+        <div class="form-group">
+          <label for="contact-email">E-mail</label>
+          <input type="email" id="contact-email" placeholder="seuemail@exemplo.com">
+          <span class="form-error">Informe um e-mail válido.</span>
+        </div>
+        <div class="form-group">
+          <label for="contact-phone">WhatsApp</label>
+          <input type="tel" id="contact-phone" placeholder="(85) 99999-9999">
+          <span class="form-error">Informe um telefone válido.</span>
+        </div>
+        <div class="form-group">
+          <label for="contact-theme">Tema de interesse</label>
+          <select id="contact-theme">
+            <option value="">Selecione (opcional)</option>
+            <option>Infantil</option>
+            <option>Adulto</option>
+            <option>Chá Revelação</option>
+            <option>Chá de Bebê</option>
+            <option>Casamento</option>
+            <option>Batizado</option>
+            <option>Corporativo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Mensagem</label>
+          <textarea id="contact-message" rows="4" placeholder="Conte mais sobre sua festa..."></textarea>
+          <span class="form-error">Escreva uma mensagem com pelo menos 10 caracteres.</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Enviar Mensagem</button>
+        <div class="form-success">Mensagem enviada com sucesso! Entraremos em contato em breve. 🎉</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Onde Estamos</span>
+      <h2 class="section-title">Fortaleza <span>– CE</span></h2>
+    </div>
+    <div class="reveal">
+      <iframe src="https://maps.google.com/maps?q=Fortaleza%2C%20CE&t=&z=12&ie=UTF8&iwloc=&output=embed" title="Mapa de localização Glipearte em Fortaleza" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="footer-logo">🎈 Glipearte</a>
+        <p>Locação de kits de decoração para festas em Fortaleza. Pegue, monte e economize sem abrir mão da beleza.</p>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" data-whatsapp-msg="Olá!" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="catalogo.html">Kits</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="catalogo.html?categoria=Infantil">Infantil</a></li>
+          <li><a href="catalogo.html?categoria=Adulto">Adulto</a></li>
+          <li><a href="catalogo.html?categoria=Casamento">Casamento</a></li>
+          <li><a href="catalogo.html?categoria=Corporativo">Corporativo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Fortaleza – CE</li>
+          <li><a href="#" data-whatsapp-msg="Olá!"><i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp</a></li>
+          <li><a href="contato.html">Formulário de contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Glipearte Pegue e Monte. Todos os direitos reservados.</span>
+      <span>Feito com 💜 em Fortaleza – CE</span>
+    </div>
+  </div>
+</footer>
+
+<div class="float-actions">
+  <button class="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+  <a class="whatsapp-float chat-toggle-btn" aria-label="Abrir chat"><i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<div class="chat-widget">
+  <div class="chat-header">
+    <strong>💬 Fale com a Glipearte</strong>
+    <button class="chat-close-btn" aria-label="Fechar chat"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="chat-body">
+    <div class="chat-msg bot">Olá! 🎈 Sou o assistente virtual da Glipearte. Como posso te ajudar hoje?</div>
+  </div>
+  <div class="chat-quick"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
